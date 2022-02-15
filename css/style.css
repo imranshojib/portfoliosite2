@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/*header section*/
+
+.header{
+	width: 100%;
+	padding: 16px 0px;
+	box-shadow: 0px 1px 0px rgb(12 102 255 / 20%);
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.header-item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-item ul li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 24px;
+}
+.header-item ul li a{
+	font-size: 14px;
+    color: #384e6a;
+}
+.banner-title{
+	padding-top: 60px;
+	text-align: center;
+}
+.banner-title h1{
+	color: #384e6a;
+    font-size: 36px;
+    line-height: 1.2;
+    padding-bottom: 24px;
+}
+.banner-title p{
+	color: #324865;
+    font-size: 14px;
+}
+.bt-style{
+	color: #0C66FF;
+}
+.b-image{
+	text-align: center;
+}
+
+/*Project title start*/
+
+.project-title{
+	width: 100%;
+	margin: 60px 0px;
+}
+.main-title{
+	display: flex;
+	justify-content: space-between;
+}
+.title-left{
+	flex-basis: 50%;
+	text-align: right;
+	padding: 0px 16px;
+}
+.title-left h1{
+	color: #ff8100;
+    padding-bottom: 6px;
+}
+.title-left p{
+	color: #384e6a;
+    font-size: 14px;
+}
+.title-right{
+	flex-basis: 50%;
+    padding: 0px 16px;
+    color: #384e6a;
+    line-height: 1.3;
+    font-size: 18px;
+}
+.feature{
+	width: 100%;
+}
+.feature-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+
+}
+.f-item1, .f-item2, .f-item3{
+	flex: 33%;
+    margin: 0px 16px;
+    padding: 24px 20px;
+    border-radius: 6px;
+}
+.thum{
+	text-align: center;
+}
+.f-item1{
+	background-color: #FDEBED;
+}
+.f-item1 h3{
+	font-size: 18px;
+    color: #384e6a;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+.f-item1 p{
+	font-size: 14px;
+    line-height: 1.8;
+    color: #384e6a;
+}
+.f-item2{
+	background-color: #EBF9F4;
+}
+.f-item2 h3{
+	font-size: 18px;
+    color: #384e6a;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+.f-item2 p{
+	font-size: 14px;
+    line-height: 1.8;
+    color: #384e6a;
+}
+.f-item3{
+	background-color: #FFF7E8;
+}
+.f-item3 h3{
+	font-size: 18px;
+    color: #384e6a;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+.f-item3 p{
+	font-size: 14px;
+    line-height: 1.8;
+    color: #384e6a;
+}
+.footer{
+	background-color: #008aff;
+    text-align: center;
+    padding: 26px 0px;
+    color: #bce0ff;
+    font-size: 14px;
+}
+.footer-title span{
+	font-weight: 800;
+	color: white;
+}
+
+
