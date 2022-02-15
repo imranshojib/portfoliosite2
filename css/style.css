@@ -100,7 +100,7 @@ html{
 .f-item1, .f-item2, .f-item3{
 	flex: 33%;
     margin: 0px 16px;
-    padding: 24px 20px;
+    padding: 36px 20px;
     border-radius: 6px;
 }
 .thum{
